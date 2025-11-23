@@ -7,10 +7,12 @@ import { onMounted } from "@odoo/owl";
 patch(OpeningControlPopup.prototype, {
   setup() {
     super.setup();
-    onMounted(() => {
-      this.state.notes = "";
-      this.state.openingCash = "0";
-      this.confirm();
-    });
+    if (this.pos.config.hide_opening_control) {
+      onMounted(() => {
+        this.state.notes = "";
+        this.state.openingCash = "0";
+        this.confirm();
+      });
+    }
   },
 });
