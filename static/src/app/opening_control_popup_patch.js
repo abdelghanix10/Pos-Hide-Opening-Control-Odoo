@@ -10,7 +10,8 @@ patch(OpeningControlPopup.prototype, {
     if (this.pos.config.hide_opening_control) {
       onMounted(() => {
         this.state.notes = "";
-        this.state.openingCash = "0";
+        this.state.openingCash =
+          this.pos.config.default_opening_cash.toString();
         this.confirm();
       });
     }
