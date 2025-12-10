@@ -1,4 +1,4 @@
-"# POS Hide Opening Control
+# POS Hide Opening Control
 
 This Odoo module allows you to streamline the Point of Sale session opening process by hiding the opening cash control popup and automatically setting a default opening cash amount.
 
@@ -33,4 +33,4 @@ This Odoo module allows you to streamline the Point of Sale session opening proc
 
 1. Clone this repository into your Odoo addons directory.
 2. Update the app list in Odoo.
-3. Install the "POS Hide Opening Control" module."
+3. Install the "POS Hide Opening Control" module.
