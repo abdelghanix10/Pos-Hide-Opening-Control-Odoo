@@ -25,7 +25,7 @@ This Odoo module allows you to streamline the Point of Sale session opening proc
 
 ## Technical Details
 
-- **Odoo Version**: 18.0
+- **Odoo Version**: 19.0
 - **Dependencies**: `point_of_sale`
 - **License**: LGPL-3
 
